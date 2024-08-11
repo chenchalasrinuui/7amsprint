@@ -1,0 +1,9 @@
+<script>
+    function fn(eve) {
+        document.querySelector('div').innerText = eve.target.innerText
+    }
+</script>
+<div></div>
+
+
+<button onclick="fn(event)">click</button>
